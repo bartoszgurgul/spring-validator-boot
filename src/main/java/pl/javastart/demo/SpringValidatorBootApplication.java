@@ -31,9 +31,5 @@ public class SpringValidatorBootApplication {
 
     }
 
-    @Bean
-    public Validator getValidator(){
-        return new LocalValidatorFactoryBean();
-    }
 
 }
